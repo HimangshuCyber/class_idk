@@ -1,0 +1,59 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <h3 class="heading">
+    &nbsp;<img src="Untitled design (7).png" height="70" width="70">
+  </h3>
+    <br>
+    <br>
+    <center>
+      
+      <div class="heading_div">
+        <br>
+        <p>We are using Mobilenet as a Model </p> 
+        <br>
+          <div class="heading_div2">
+          Mobilenet model is trained on 
+          more than 1.3 million images!
+          </div>
+          <br>
+        </div>
+    </center>
+    <br>
+  </h3>
+  <br>
+  <center>
+  <p class="btn btn-primary" id="object">Object : 
+    <span id=""></span> 
+  </p>
+  
+  <br><br>
+  <p class="btn btn-primary" id="expected_accuracy">Accuracy : 
+    <span id=""></span> 
+  </p>
+
+</center>
+
+<div class="copy_right_footer">
+  © Himangshu
+</div>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
+
+
